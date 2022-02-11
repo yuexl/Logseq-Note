@@ -8,3 +8,4 @@
 - pytest.main(["-svx", "--alluredir", "./allure-results", "TestCases/"])
   os.system(r"allure generate  allure-results -o allure-report --clean")
   os.system(r"allure open allure-report")
+-
