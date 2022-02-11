@@ -1,4 +1,5 @@
 - ### 常用命令
 	- pytest.main(["-svx", "--alluredir", "./allure-results", "TestCases/"]), pytest-allure包生成allure-results文件夹，包含测试的结果数据
-	- allure generate  allure-results -o allure-report --clean， 根据allure-results生成allure-re
-	- allure open allure-report
+	- allure generate  allure-results -o allure-report --clean， 根据allure-results生成allure-report
+	- allure open allure-report 默认浏览器打开报告
+	- allure serve allure-results,
