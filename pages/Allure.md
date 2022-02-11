@@ -3,4 +3,5 @@
 	- allure generate  allure-results -o allure-report --clean， 根据allure-results生成allure-report
 	- allure open allure-report 默认浏览器打开报告
 	- allure serve allure-results, 也是打开报告，区别与open是不需要generate这一步，直接根据results打开
--
+- ### ps
+	- report文件的打开默认是启用一个静态文件服务
