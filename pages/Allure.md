@@ -5,4 +5,6 @@
 	- allure serve allure-results, 也是打开报告，区别与open是不需要generate这一步，直接根据results打开
 - ### ps
 	- report文件的打开默认是启用一个静态文件服务，所以如果需要团队之间查看的话，需要运行一个服务(nginx等)
-	-
+- pytest.main(["-svx", "--alluredir", "./allure-results", "TestCases/"])
+  os.system(r"allure generate  allure-results -o allure-report --clean")
+  os.system(r"allure open allure-report")
