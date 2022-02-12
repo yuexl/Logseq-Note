@@ -4,12 +4,14 @@
 	- allure open allure-report 默认浏览器打开报告
 	- allure serve allure-results, 也是打开报告，区别与open是不需要generate这一步，直接根据results打开
 - ### ps
-	- report文件的打开默认是启用一个静态文件服务，所以如果需要团队之间查看的话，需要运行一个服务(nginx等)
+	- report文件的打开默认是启用一个静态文件服务，所以如果需要团队之间查看的话，需要运行一个服务(nginx，anywhere等)
 - pytest.main(["-svx", "--alluredir", "./allure-results", "TestCases/"])
   os.system(r"allure generate  allure-results -o allure-report --clean")
   os.system(r"allure open allure-report")
 -
 - ### pytest-allure定制报告
+	- Epic
+	- Description
 	- Feature: 标注主要功能模块
 	  collapsed:: false
 	- Story: 标注Features功能模块下的分支功能
