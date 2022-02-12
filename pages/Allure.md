@@ -12,6 +12,7 @@
 - ### pytest-allure定制报告
 	- Epic
 	- Description
+	- Title
 	- Feature: 标注主要功能模块
 	  collapsed:: false
 	- Story: 标注Features功能模块下的分支功能
@@ -24,4 +25,5 @@
 	- Severity: 标注测试用例的重要级别
 	- Step: 标注测试用例的重要步骤
 	- Issue和TestCase: 标注Issue、Case，可加入URL
+	- Attach
 -
