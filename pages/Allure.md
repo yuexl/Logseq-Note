@@ -1,7 +1,9 @@
 - ### 常用命令
 	- pytest.main(["-svx", "--alluredir", "./allure-results", "TestCases/"]), pytest-allure包生成allure-results文件夹，包含测试的结果数据
+	  id:: 62062e04-21cc-4461-874e-b8e54e94bbf8
 	- allure generate  allure-results -o allure-report --clean， 根据allure-results生成allure-report
 	- allure open allure-report 默认浏览器打开报告
+	  id:: 62062de3-3475-484a-9c47-bf601b5727de
 	- allure serve allure-results, 也是打开报告，区别与open是不需要generate这一步，直接根据results打开
 - ### ps
 	- report文件的打开默认是启用一个静态文件服务，所以如果需要团队之间查看的话，需要运行一个服务(nginx，anywhere等)
