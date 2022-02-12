@@ -1,6 +1,9 @@
 [{:block/name "a",
   :block/created-at 1644489340326,
   :block/updated-at 1644489340326}
+ {:block/name "allure",
+  :block/created-at 1644572080538,
+  :block/updated-at 1644572916757}
  {:block/name "b",
   :block/created-at 1644489340326,
   :block/updated-at 1644489340326}
@@ -20,11 +23,8 @@
   :block/created-at 1644489340327,
   :block/updated-at 1644489340327}
  {:block/name "draws",
-  :block/created-at 1644556172777,
-  :block/updated-at 1644556172777}
- {:block/name "draws/2022-02-10-18-36-44.excalidraw",
-  :block/created-at 1644556172777,
-  :block/updated-at 1644556172777}
+  :block/created-at 1644573319364,
+  :block/updated-at 1644573319364}
  {:block/name "favorites",
   :block/created-at 1644489340326,
   :block/updated-at 1644489340326}
