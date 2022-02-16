@@ -1,0 +1,4 @@
+- 字符串拼接
+	- 直接使用 +， str = "hello" + "world"
+	- join拼接，str = ''.join(["hello", "world"])
+	- format拼接，str = "hello %s".format()
