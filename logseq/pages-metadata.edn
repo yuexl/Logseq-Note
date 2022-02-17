@@ -36,7 +36,7 @@
   :block/updated-at 1644489340326}
  {:block/name "feb 10th, 2022",
   :block/created-at 1644451200000,
-  :block/updated-at 1644640129993}
+  :block/updated-at 1645014044123}
  {:block/name "feb 11th, 2022",
   :block/created-at 1644537600000,
   :block/updated-at 1644537600000}
@@ -55,6 +55,15 @@
  {:block/name "now",
   :block/created-at 1644489340327,
   :block/updated-at 1644489340327}
+ {:block/name "python-basic",
+  :block/created-at 1644996141523,
+  :block/updated-at 1644996150183}
+ {:block/name "python-learn",
+  :block/created-at 1644996134374,
+  :block/updated-at 1644996134374}
+ {:block/name "python-string",
+  :block/created-at 1644996193240,
+  :block/updated-at 1644996540447}
  {:block/name "todo",
   :block/created-at 1644489340326,
   :block/updated-at 1644489340326}
